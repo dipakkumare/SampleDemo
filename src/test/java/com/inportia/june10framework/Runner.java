@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 				features="src\\test\\java\\resources",
 				glue= "stepdef",
-				tags={"@dd"},
+				//tags={"@mw"},
 				monochrome= true,  
 				dryRun= false  //"verify the specific step definition to the steps(no execution only verification) make always false
 		)
