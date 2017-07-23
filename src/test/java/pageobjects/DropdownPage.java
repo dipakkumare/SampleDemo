@@ -13,7 +13,7 @@ public class DropdownPage extends SeleniumClass{
 	public void selectValue(String arg1, String arg2) {
 		// TODO Auto-generated method stub
 		element = this.locateElement(xpathDropdownmenu, "xpath");
-		this.selectValueFromDropdown(arg1, arg2, element);
+		//this.selectValueFromDropdown(arg1, arg2, element);
 	}
 	
 	
